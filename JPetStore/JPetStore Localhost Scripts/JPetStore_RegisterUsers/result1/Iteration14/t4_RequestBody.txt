@@ -1,6 +1,0 @@
-"username=UserID20260611035742114&password=UserID20260611035742114&repeatedPassword=UserID20260"
-"611035742114&account.firstName=UserID20260611035742114&account.lastName=UserID2026061103574211"
-"4&account.email=UserID20260611035742114&account.phone=953463558&account.address1=UserID2026061"
-"1035742114&account.address2=UserID20260611035742114&account.city=UserID20260611035742114&accou"
-"nt.state=Tamil+Nadu&account.zip=080345&account.country=India&account.languagePreference=englis"
-"h&account.favouriteCategoryId=FISH&newAccount=Save+Account+Information"

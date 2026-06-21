@@ -1,4 +1,0 @@
-"order.cardType=Visa&order.creditCard=112029528072213&order.expiryDate=09%2F18&order.billToFirs"
-"tName=FName10&order.billToLastName=LName10&order.billAddress1=billAddress1&order.billAddress2="
-"billAddress2&order.billCity=billCity&order.billState=CA&order.billZip=78798&order.billCountry="
-"USA&newOrder=Continue"

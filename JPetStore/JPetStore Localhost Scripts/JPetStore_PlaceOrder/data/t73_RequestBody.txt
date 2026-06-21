@@ -1,4 +1,0 @@
-"{\"entries\":[{\"http_response_code\":401,\"network_changed\":false,\"protocol\":\"HTTPS\",\"r"
-"equest_age_ms\":82842,\"request_elapsed_ms\":18532,\"sample_rate\":1.0,\"server_ip\":\"192.168"
-".1.48:8888\",\"status\":\"http.error\",\"url\":\"https://accounts.google.com/RotateBoundGaps\""
-",\"was_proxied\":true}],\"reporter\":\"chrome\"}"

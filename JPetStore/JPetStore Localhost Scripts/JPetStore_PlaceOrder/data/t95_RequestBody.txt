@@ -1,6 +1,0 @@
-"order.cardType=Visa&order.creditCard=999+9999+9999+9999&order.expiryDate=12%2F03&order.billToF"
-"irstName=SUG&order.billToLastName=JA&order.billAddress1=901+San+Antonio+Road&order.billAddress"
-"2=MS+UCUP02-206&order.billCity=Palo+Alto&order.billState=CA&order.billZip=94303&order.billCoun"
-"try=USA&newOrder=Continue&_sourcePage=hrwYJRfKkZ7UzMfwWCxGoE3Hw4ES0gvganpIrBkkJhVlf7MNpBqsaeNC"
-"lSh2vN0ayr5m1mzulW0qeu0p_b2oKENw1bY49LWnHe6cYa-r5G4%3D&__fp=aDG5ISYkuHSt-E15KdhMIqQyNh8BTwiI33"
-"Bglc7qZn_Nw1JuL2CYd-Xi9L5U13QWGXu4YRGpTie-gJlJOTGz1Dj0RwcotMo9VRScWMdJqU-8InQ-Rf92cQ%3D%3D"

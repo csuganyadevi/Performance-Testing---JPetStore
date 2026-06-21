@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\Suganya\LR Sripts\JPetStore New Project\JPetStore_RegisterUsers
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suganya\lr sripts\jpetstore new project\jpetstore_registerusers\\logfile.log
-d:\suganya\lr sripts\jpetstore new project\jpetstore_registerusers\\combined_JPetStore_RegisterUsers.c
-d:\suganya\lr sripts\jpetstore new project\jpetstore_registerusers\\pre_cci.c

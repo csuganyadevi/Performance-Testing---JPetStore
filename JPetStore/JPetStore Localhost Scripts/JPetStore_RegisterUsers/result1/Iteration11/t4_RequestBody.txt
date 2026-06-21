@@ -1,6 +1,0 @@
-"username=UserID20260611035738111&password=UserID20260611035738111&repeatedPassword=UserID20260"
-"611035738111&account.firstName=UserID20260611035738111&account.lastName=UserID2026061103573811"
-"1&account.email=UserID20260611035738111&account.phone=833183485&account.address1=UserID2026061"
-"1035738111&account.address2=UserID20260611035738111&account.city=UserID20260611035738111&accou"
-"nt.state=Tamil+Nadu&account.zip=017913&account.country=India&account.languagePreference=japane"
-"se&account.favouriteCategoryId=BIRDS&newAccount=Save+Account+Information"

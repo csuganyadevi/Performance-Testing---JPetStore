@@ -1,5 +1,0 @@
-HTTP/1.1 204 No Content
-Content-Length: 0
-Cross-Origin-Resource-Policy: cross-origin
-Date: Mon, 20 Apr 2026 17:49:06 GMT
-

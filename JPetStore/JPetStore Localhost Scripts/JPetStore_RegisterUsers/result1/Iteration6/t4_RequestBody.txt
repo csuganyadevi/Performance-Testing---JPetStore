@@ -1,6 +1,0 @@
-"username=UserID2026061103573116&password=UserID2026061103573116&repeatedPassword=UserID2026061"
-"103573116&account.firstName=UserID2026061103573116&account.lastName=UserID2026061103573116&acc"
-"ount.email=UserID2026061103573116&account.phone=885748721&account.address1=UserID2026061103573"
-"116&account.address2=UserID2026061103573116&account.city=UserID2026061103573116&account.state="
-"Tamil+Nadu&account.zip=009895&account.country=India&account.languagePreference=english&account"
-".favouriteCategoryId=DOGS&newAccount=Save+Account+Information"

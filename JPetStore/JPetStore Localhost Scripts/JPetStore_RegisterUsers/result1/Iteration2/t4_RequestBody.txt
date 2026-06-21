@@ -1,6 +1,0 @@
-"username=UserID2026061103572512&password=UserID2026061103572512&repeatedPassword=UserID2026061"
-"103572512&account.firstName=UserID2026061103572512&account.lastName=UserID2026061103572512&acc"
-"ount.email=UserID2026061103572512&account.phone=938783945&account.address1=UserID2026061103572"
-"512&account.address2=UserID2026061103572512&account.city=UserID2026061103572512&account.state="
-"Tamil+Nadu&account.zip=061882&account.country=India&account.languagePreference=english&account"
-".favouriteCategoryId=REPTILES&newAccount=Save+Account+Information"

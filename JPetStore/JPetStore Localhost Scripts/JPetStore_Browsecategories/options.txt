@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\Suganya\LR Sripts\JPetStore New Project\JPetStore_Browsecategories
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ed:\suganya\lr sripts\jpetstore new project\jpetstore_browsecategories\\logfile.log
-d:\suganya\lr sripts\jpetstore new project\jpetstore_browsecategories\\combined_JPetStore_Browsecategories.c
-d:\suganya\lr sripts\jpetstore new project\jpetstore_browsecategories\\pre_cci.c
