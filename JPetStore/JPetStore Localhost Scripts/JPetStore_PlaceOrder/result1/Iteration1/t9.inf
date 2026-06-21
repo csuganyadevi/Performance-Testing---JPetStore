@@ -1,0 +1,13 @@
+[t9]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Url: Confirm
+Total=1
+FileName1=t9.html
+RequestHeaderFile=t9_RequestHeader.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+RawStepEndTime=1781130584337
+RawStepName=Confirm
+RequestBodyFile=t9_RequestBody.txt
+RawStepStartTime=1781130584236
+URL1=http://localhost:8080/jpetstore/actions/Order.action?newOrder=&confirmed=true

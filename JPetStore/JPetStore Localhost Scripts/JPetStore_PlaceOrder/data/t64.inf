@@ -1,0 +1,11 @@
+[t64]
+FileName1=t64.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=16:f8Lm7POY-lIXRPXPix-938WddopCCZ04aGSQTu7V17s&cup2hreq=3d65f39ac4c141d579d91c38d87e3dbe06e86ddc821a2fabdb1699625790f68d
+Total=1
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=t64_RequestBody.txt
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_64.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

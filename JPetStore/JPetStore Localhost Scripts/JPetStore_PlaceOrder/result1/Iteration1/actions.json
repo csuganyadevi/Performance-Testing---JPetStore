@@ -1,0 +1,106 @@
+[
+    {
+        "actionName": "PlaeOrder",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: sm_category.gif",
+                "infFile": "t3.inf",
+                "time": 1781130583123
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Catalog.action_2",
+                "infFile": "t4.inf",
+                "time": 1781130583432
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Catalog.action_3",
+                "infFile": "t5.inf",
+                "time": 1781130583618
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Cart.action",
+                "infFile": "t6.inf",
+                "time": 1781130583807
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Order.action",
+                "infFile": "t7.inf",
+                "time": 1781130583953
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: Order.action_2",
+                "infFile": "t8.inf",
+                "time": 1781130584172
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Confirm",
+                "infFile": "t9.inf",
+                "time": 1781130584417
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Return to Main Menu",
+                "infFile": "t10.inf",
+                "time": 1781130584747
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "JPetStore_PlaceOrder_T03_Selectcategory",
+                "rawStartTime": 1781130582799,
+                "rawEndTime": 1781130583130,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02336740493774414
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T04_SelectProduct",
+                "rawStartTime": 1781130583210,
+                "rawEndTime": 1781130583443,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010124683380126953
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T05_ViewItem",
+                "rawStartTime": 1781130583505,
+                "rawEndTime": 1781130583627,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014989614486694336
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T06_AddtoCart",
+                "rawStartTime": 1781130583658,
+                "rawEndTime": 1781130583814,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02271270751953125
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T07_checkout",
+                "rawStartTime": 1781130583830,
+                "rawEndTime": 1781130583967,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017052173614501954
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T08_PaymentDetails",
+                "rawStartTime": 1781130584031,
+                "rawEndTime": 1781130584174,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009891033172607422
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T09_PlaceOrder",
+                "rawStartTime": 1781130584205,
+                "rawEndTime": 1781130584440,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00968480110168457
+            }
+        ]
+    }
+]

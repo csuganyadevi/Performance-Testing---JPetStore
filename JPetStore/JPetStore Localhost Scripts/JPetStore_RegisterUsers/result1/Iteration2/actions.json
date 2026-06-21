@@ -1,0 +1,61 @@
+[
+    {
+        "actionName": "User_Registration",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t1.inf",
+                "time": 1781130446217
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Account.action;jsessionid={SessionId}",
+                "infFile": "t2.inf",
+                "time": 1781130446564
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Account.action",
+                "infFile": "t3.inf",
+                "time": 1781130446818
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: Account.action_2",
+                "infFile": "t4.inf",
+                "time": 1781130447087
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "JPetStore_UserRegistration_T01_Launch",
+                "rawStartTime": 1781130445951,
+                "rawEndTime": 1781130446235,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06451797485351563
+            },
+            {
+                "transactionName": "JPetStore_UserRegistration_T02_SignIn",
+                "rawStartTime": 1781130446265,
+                "rawEndTime": 1781130446575,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018017053604125978
+            },
+            {
+                "transactionName": "JPetStore_UserRegistration_T03_RegisterNow",
+                "rawStartTime": 1781130446592,
+                "rawEndTime": 1781130446825,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017548561096191407
+            },
+            {
+                "transactionName": "JPetStore_UserRegistration_T04_SaveAccount",
+                "rawStartTime": 1781130446889,
+                "rawEndTime": 1781130447119,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017873525619506837
+            }
+        ]
+    }
+]

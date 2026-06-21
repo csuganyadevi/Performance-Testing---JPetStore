@@ -1,0 +1,10 @@
+GET /jpetstore/actions/Account.action;jsessionid=5576C31D98D35AA67E1B8C99C2A1702E?signonForm= HTTP/1.1
+Referer: http://localhost:8080/jpetstore/actions/Catalog.action
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9,ta-IN;q=0.8,ta;q=0.7,en-US;q=0.6
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:8080
+Cookie: JSESSIONID=5576C31D98D35AA67E1B8C99C2A1702E; dtCookieeq4w8bp9=v_4_srv_5_sn_295342BBEC4CB0440D49517DF6E35022_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1
+

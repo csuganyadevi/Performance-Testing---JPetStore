@@ -1,0 +1,10 @@
+GET https://optimizationguide-pa.googleapis.com/downloads?name=240731042075&target=OPTIMIZATION_TARGET_SEGMENTATION_COMPOSE_PROMOTION HTTP/1.1
+X-Goog-Api-Key: AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en;q=0.9,ta-IN;q=0.8,ta;q=0.7,en-US;q=0.6
+Host: optimizationguide-pa.googleapis.com
+

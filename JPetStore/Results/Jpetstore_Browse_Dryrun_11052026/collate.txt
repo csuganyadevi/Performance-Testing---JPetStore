@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=D:\Suganya\Scenario\JpetStore_Browse_Singlescenario_dryrun.lrs
+Completed=0

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>JPetStore_Login</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Login.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="JPetStore_Login.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="JPetStore_Login.prm" Filter="2" />
+    <FileEntry Name="custom_body_variables.txt" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="UserID.dat" Filter="2" />
+    <FileEntry Name="combined_JPetStore_Login.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="238143062440.idx" Filter="1" />
+    <FileEntry Name="23814306244_36u.403.idx" Filter="1" />
+    <FileEntry Name="23814306244_3WL.431.idx" Filter="1" />
+    <FileEntry Name="23814306244_3x5.53.idx" Filter="1" />
+    <FileEntry Name="23814306244_6Ao.553.idx" Filter="1" />
+    <FileEntry Name="23814306244_9hT.895.idx" Filter="1" />
+    <FileEntry Name="23814306244_9QT.247.idx" Filter="1" />
+    <FileEntry Name="23814306244_dVh.309.idx" Filter="1" />
+    <FileEntry Name="23814306244_hYD.347.idx" Filter="1" />
+    <FileEntry Name="23814306244_j7T.589.idx" Filter="1" />
+    <FileEntry Name="23814306244_JQL.15.idx" Filter="1" />
+    <FileEntry Name="23814306244_kCy.807.idx" Filter="1" />
+    <FileEntry Name="23814306244_mup.455.idx" Filter="1" />
+    <FileEntry Name="23814306244_oyl.967.idx" Filter="1" />
+    <FileEntry Name="23814306244_p0r.333.idx" Filter="1" />
+    <FileEntry Name="23814306244_p4n.669.idx" Filter="1" />
+    <FileEntry Name="23814306244_PEe.223.idx" Filter="1" />
+    <FileEntry Name="23814306244_PPI.87.idx" Filter="1" />
+    <FileEntry Name="23814306244_qsN.393.idx" Filter="1" />
+    <FileEntry Name="23814306244_QU2.983.idx" Filter="1" />
+    <FileEntry Name="23814306244_Tyc.867.idx" Filter="1" />
+    <FileEntry Name="23814306244_UA9.293.idx" Filter="1" />
+    <FileEntry Name="23814306244_UEI.577.idx" Filter="1" />
+    <FileEntry Name="23814306244_uew.87.idx" Filter="1" />
+    <FileEntry Name="23814306244_VOL.711.idx" Filter="1" />
+    <FileEntry Name="23814306244_VxY.91.idx" Filter="1" />
+    <FileEntry Name="23814306244_wRx.231.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="FirstName.dat" Filter="1" />
+    <FileEntry Name="JPetStore.prm.bak" Filter="1" />
+    <FileEntry Name="JPetStore_Login.c.pickle" Filter="1" />
+    <FileEntry Name="JPetStore_Login.ci" Filter="1" />
+    <FileEntry Name="JPetStore_Login.prm.bak" Filter="1" />
+    <FileEntry Name="JPetStore_PlaceOrder.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

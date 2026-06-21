@@ -1,0 +1,13 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/html
+StepName=Url: Catalog.action;jsessionid={SessionID}
+Total=1
+FileName1=t2.html
+RequestHeaderFile=t2_RequestHeader.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1778508757668
+RawStepName=Catalog.action;jsessionid={SessionID}
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1778508757340
+URL1=http://localhost:8080/jpetstore/actions/Catalog.action;jsessionid=18C06CC99F77986C6E87D99593D4E76E?viewCategory=&categoryId=CATS

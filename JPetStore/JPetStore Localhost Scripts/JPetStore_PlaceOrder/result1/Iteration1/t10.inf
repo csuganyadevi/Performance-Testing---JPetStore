@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Url: Return to Main Menu
+Total=1
+FileName1=t10.html
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1781130584504
+RawStepName=Return to Main Menu
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1781130584487
+URL1=http://localhost:8080/jpetstore/actions/Catalog.action

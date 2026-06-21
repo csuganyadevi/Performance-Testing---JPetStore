@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Cache-Control: private,max-age=604800
+Content-Type: text/plain
+X-Goog-Safety-Encoding: base64
+X-Goog-Safety-Content-Type: application/x-protobuf
+Vary: Origin,X-Origin,Referer
+Content-Encoding: gzip
+Date: Wed, 29 Apr 2026 22:14:46 GMT
+Server: ESF
+Content-Length: 36
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

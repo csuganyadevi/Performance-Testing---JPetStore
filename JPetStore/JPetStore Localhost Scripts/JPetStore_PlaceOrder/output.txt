@@ -1,0 +1,131 @@
+Virtual User Script started at: 11-06-2026 03:59:41
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.0.0 (Mar 08 2022 19:29:30)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+vuser_init.c(4): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(6): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(14): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(21): Notify: Transaction "JPetStore_PlaceOrder_T01_Launch" started.
+vuser_init.c(23): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Notify: Saving Parameter "SessionID = A6430805670CE6271ADF7CF8A099D829".
+vuser_init.c(23): web_url("Catalog.action") was successful, 6190 body bytes, 556 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(33): Notify: Transaction "JPetStore_PlaceOrder_T01_Launch" ended with a "Pass" status (Duration: 0.6799 Wasted Time: 0.1833).
+vuser_init.c(39): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(39): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(48): Notify: Transaction "JPetStore_PlaceOrder_T02_Login" started.
+vuser_init.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(59): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(59): Notify: Parameter Substitution: parameter "SessionID" =  "A6430805670CE6271ADF7CF8A099D829"
+vuser_init.c(59): Notify: Parameter Substitution: parameter "UserID" =  "UserID2026061103572713"
+vuser_init.c(59): Notify: Parameter Substitution: parameter "UserID" =  "UserID2026061103572713"
+vuser_init.c(59): Redirecting "http://localhost:8080/jpetstore/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_init.c(59): To location "http://localhost:8080/jpetstore/actions/Catalog.action"  	[MsgId: MMSG-26693]
+vuser_init.c(59): Notify: Saving Parameter "Category_1 = FISH".
+vuser_init.c(59): Notify: Saving Parameter "Category_2 = DOGS".
+vuser_init.c(59): Notify: Saving Parameter "Category_3 = REPTILES".
+vuser_init.c(59): Notify: Saving Parameter "Category_4 = CATS".
+vuser_init.c(59): Notify: Saving Parameter "Category_5 = BIRDS".
+vuser_init.c(59): Notify: Saving Parameter "Category_6 = FISH".
+vuser_init.c(59): Notify: Saving Parameter "Category_7 = DOGS".
+vuser_init.c(59): Notify: Saving Parameter "Category_8 = CATS".
+vuser_init.c(59): Notify: Saving Parameter "Category_9 = REPTILES".
+vuser_init.c(59): Notify: Saving Parameter "Category_10 = BIRDS".
+vuser_init.c(59): Notify: Saving Parameter "Category_count = 10".
+vuser_init.c(59): Registered web_reg_find successful for "Text=Signon failed"  	[MsgId: MMSG-26362]
+vuser_init.c(59): Notify: Saving Parameter "SignIn_Fail = 0".
+vuser_init.c(59): web_submit_data("Account.action") was successful, 5786 body bytes, 685 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(75): Notify: Parameter Substitution: parameter "SignIn_Fail" =  "0"
+vuser_init.c(78): Notify: Transaction "JPetStore_PlaceOrder_T02_Login" ended with a "Pass" status (Duration: 0.1285 Wasted Time: 0.0203).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action PlaeOrder.
+PlaeOrder.c(7): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+PlaeOrder.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+PlaeOrder.c(18): Notify: Parameter Substitution: parameter "Category_count" =  "10"
+PlaeOrder.c(18): Notify: Parameter Substitution: parameter "Category_5" =  "BIRDS"
+PlaeOrder.c(20): Notify: Saving Parameter "rCategory = BIRDS".
+PlaeOrder.c(22): Notify: Transaction "JPetStore_PlaceOrder_T03_Selectcategory" started.
+PlaeOrder.c(24): web_url("sm_category.gif") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(24): Notify: Parameter Substitution: parameter "rCategory" =  "BIRDS"
+PlaeOrder.c(24): Notify: Saving Parameter "ProductID_1 = AV-CB-01".
+PlaeOrder.c(24): Notify: Saving Parameter "ProductID_2 = AV-SB-02".
+PlaeOrder.c(24): Notify: Saving Parameter "ProductID_count = 2".
+PlaeOrder.c(24): web_url("sm_category.gif") was successful, 4392 body bytes, 342 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(34): Notify: Transaction "JPetStore_PlaceOrder_T03_Selectcategory" ended with a "Pass" status (Duration: 0.3313 Wasted Time: 0.0234).
+PlaeOrder.c(41): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+PlaeOrder.c(41): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+PlaeOrder.c(51): Notify: Parameter Substitution: parameter "ProductID_count" =  "2"
+PlaeOrder.c(51): Notify: Parameter Substitution: parameter "ProductID_2" =  "AV-SB-02"
+PlaeOrder.c(57): Notify: Saving Parameter "rProductID = AV-SB-02".
+PlaeOrder.c(59): Notify: Transaction "JPetStore_PlaceOrder_T04_SelectProduct" started.
+PlaeOrder.c(62): web_url("Catalog.action_2") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(62): Notify: Parameter Substitution: parameter "rProductID" =  "AV-SB-02"
+PlaeOrder.c(62): Notify: Saving Parameter "ItemID_1 = EST-19".
+PlaeOrder.c(62): Notify: Saving Parameter "ItemID_count = 1".
+PlaeOrder.c(62): web_url("Catalog.action_2") was successful, 4558 body bytes, 342 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(72): Notify: Transaction "JPetStore_PlaceOrder_T04_SelectProduct" ended with a "Pass" status (Duration: 0.2327 Wasted Time: 0.0101).
+PlaeOrder.c(81): Notify: Parameter Substitution: parameter "ItemID_count" =  "1"
+PlaeOrder.c(81): Notify: Parameter Substitution: parameter "ItemID_1" =  "EST-19"
+PlaeOrder.c(83): Notify: Saving Parameter "rItemID = EST-19".
+PlaeOrder.c(85): Notify: Transaction "JPetStore_PlaceOrder_T05_ViewItem" started.
+PlaeOrder.c(88): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(88): Notify: Parameter Substitution: parameter "rItemID" =  "EST-19"
+PlaeOrder.c(88): web_url("Catalog.action_3") was successful, 4521 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(98): Notify: Transaction "JPetStore_PlaceOrder_T05_ViewItem" ended with a "Pass" status (Duration: 0.1226 Wasted Time: 0.0150).
+PlaeOrder.c(105): Notify: Transaction "JPetStore_PlaceOrder_T06_AddtoCart" started.
+PlaeOrder.c(109): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(109): Notify: Parameter Substitution: parameter "rItemID" =  "EST-19"
+PlaeOrder.c(109): Notify: Parameter Substitution: parameter "rItemID" =  "EST-19"
+PlaeOrder.c(109): web_url("Cart.action") was successful, 5444 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(119): Notify: Transaction "JPetStore_PlaceOrder_T06_AddtoCart" ended with a "Pass" status (Duration: 0.1559 Wasted Time: 0.0227).
+PlaeOrder.c(125): Notify: Transaction "JPetStore_PlaceOrder_T07_checkout" started.
+PlaeOrder.c(128): web_url("Order.action") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(128): Notify: Parameter Substitution: parameter "rItemID" =  "EST-19"
+PlaeOrder.c(128): web_url("Order.action") was successful, 6255 body bytes, 342 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(138): Notify: Transaction "JPetStore_PlaceOrder_T07_checkout" ended with a "Pass" status (Duration: 0.1372 Wasted Time: 0.0171).
+Functions.h(15): Notify: Saving Parameter "CreditCard = 112029528072213".
+Functions.h(17): Notify: Parameter Substitution: parameter "CreditCard" =  "112029528072213"
+Functions.h(17): Generated Card: 112029528072213
+PlaeOrder.c(148): The week count starts from 0.
+PlaeOrder.c(148): Notify: Saving Parameter "ExpiryDate = 09/18".
+PlaeOrder.c(150): Notify: Transaction "JPetStore_PlaceOrder_T08_PaymentDetails" started.
+PlaeOrder.c(153): web_submit_data("Order.action_2") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(153): Notify: Parameter Substitution: parameter "CreditCard" =  "112029528072213"
+PlaeOrder.c(153): Notify: Parameter Substitution: parameter "ExpiryDate" =  "09/18"
+PlaeOrder.c(153): Notify: Parameter Substitution: parameter "FirstName" =  "FName10"
+PlaeOrder.c(153): Notify: Next row for parameter LastName = 10 [table  = LastName].
+PlaeOrder.c(153): Notify: Parameter Substitution: parameter "LastName" =  "LName10"
+PlaeOrder.c(153): Notify: Parameter Substitution: parameter "ZIP" =  "78798"
+PlaeOrder.c(153): web_submit_data("Order.action_2") was successful, 5425 body bytes, 340 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(178): Notify: Transaction "JPetStore_PlaceOrder_T08_PaymentDetails" ended with a "Pass" status (Duration: 0.1429 Wasted Time: 0.0099).
+PlaeOrder.c(185): Notify: Transaction "JPetStore_PlaceOrder_T09_PlaceOrder" started.
+PlaeOrder.c(188): web_reg_find started  	[MsgId: MMSG-26355]
+PlaeOrder.c(188): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+PlaeOrder.c(193): web_url("Confirm") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(193): Registered web_reg_find successful for "Text=Thank you" (count=1)  	[MsgId: MMSG-26364]
+PlaeOrder.c(193): Notify: Saving Parameter "OrderConfirm = 1".
+PlaeOrder.c(193): web_url("Confirm") was successful, 6167 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+PlaeOrder.c(203): Notify: Parameter Substitution: parameter "OrderConfirm" =  "1"
+PlaeOrder.c(205): Notify: Transaction "JPetStore_PlaceOrder_T09_PlaceOrder" ended with a "Pass" status (Duration: 0.2346 Wasted Time: 0.0097).
+PlaeOrder.c(218): web_url("Return to Main Menu") started  	[MsgId: MMSG-26355]
+PlaeOrder.c(218): web_url("Return to Main Menu") was successful, 5786 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+Ending action PlaeOrder.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(5): Notify: Transaction "JPetStore_PlaceOrder_T10_Signout" started.
+vuser_end.c(8): web_url("Account.action_3") started  	[MsgId: MMSG-26355]
+vuser_end.c(8): Redirecting "http://localhost:8080/jpetstore/actions/Account.action?signoff=" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_end.c(8): To location "http://localhost:8080/jpetstore/actions/Catalog.action"  	[MsgId: MMSG-26693]
+vuser_end.c(8): web_url("Account.action_3") was successful, 5575 body bytes, 768 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(18): Notify: Transaction "JPetStore_PlaceOrder_T10_Signout" ended with a "Pass" status (Duration: 0.0956 Wasted Time: 0.0095).
+Ending action vuser_end.
+Vuser Terminated.

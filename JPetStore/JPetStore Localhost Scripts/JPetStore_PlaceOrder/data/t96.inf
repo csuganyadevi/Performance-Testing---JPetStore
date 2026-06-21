@@ -1,0 +1,11 @@
+[t96]
+FileName1=t96.htm
+URL1=https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true
+Total=1
+RequestHeaderFile=t96_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t96_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_96.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-GUploader-UploadID: AAVLpEgn6sjKEVQO_m6u3rpXAuBDc0W47IpuXmYo524vzUWuZ2XNLPXkRogVvnXnPbbKndOz
+Vary: X-Goog-Api-Key
+Cache-Control: public, max-age=86400
+Date: Wed, 29 Apr 2026 22:14:45 GMT
+Expires: Thu, 30 Apr 2026 22:14:45 GMT
+Accept-Ranges: bytes
+X-Goog-Hash: crc32c=51M+0w==
+Server: UploadServer
+Content-Type: text/html; charset=UTF-8
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

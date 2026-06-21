@@ -1,0 +1,13 @@
+POST https://android.clients.google.com/c2dm/register3 HTTP/1.1
+Authorization: AidLogin 5666318611435966553:2305136504702405442
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-GB,en;q=0.9,ta-IN;q=0.8,ta;q=0.7,en-US;q=0.6
+Host: android.clients.google.com
+Content-Length: 158
+Connection: Keep-Alive
+

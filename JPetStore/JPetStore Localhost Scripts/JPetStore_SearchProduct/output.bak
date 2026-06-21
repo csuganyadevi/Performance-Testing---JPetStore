@@ -1,0 +1,162 @@
+Virtual User Script started at: 10-05-2026 04:18:01
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.0.0 for Windows 10; build 605 (Mar 08 2022 19:29:30)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Suganya\LR Sripts\JPetStore New Project\JPetStore_SearchProduct\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(4): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(6): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(14): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(21): Notify: Transaction "JPetStore_SearchProduct_T01_Launch" started.
+vuser_init.c(23): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Notify: Saving Parameter "SessionID = EE1EE4913251EE98EAC4048D7CD5562B".
+vuser_init.c(23): web_url("Catalog.action") was successful, 6158 body bytes, 557 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(33): Notify: Transaction "JPetStore_SearchProduct_T01_Launch" ended with a "Pass" status (Duration: 1.2183 Wasted Time: 0.3012).
+vuser_init.c(35): lr_think_time: 9.66 seconds (recorded think time was 10.00 seconds).
+vuser_init.c(39): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(39): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(48): Notify: Transaction "JPetStore_SearchProduct_T02_Login" started.
+vuser_init.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(59): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(59): Notify: Parameter Substitution: parameter "SessionID" =  "EE1EE4913251EE98EAC4048D7CD5562B"
+vuser_init.c(59): Notify: Parameter Substitution: parameter "UserID" =  "UserID2026050802425011"
+vuser_init.c(59): Notify: Parameter Substitution: parameter "UserID" =  "UserID2026050802425011"
+vuser_init.c(59): Redirecting "http://localhost:8080/jpetstore/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_init.c(59): To location "http://localhost:8080/jpetstore/actions/Catalog.action"  	[MsgId: MMSG-26693]
+vuser_init.c(59): Notify: Saving Parameter "Category_1 = FISH".
+vuser_init.c(59): Notify: Saving Parameter "Category_2 = DOGS".
+vuser_init.c(59): Notify: Saving Parameter "Category_3 = REPTILES".
+vuser_init.c(59): Notify: Saving Parameter "Category_4 = CATS".
+vuser_init.c(59): Notify: Saving Parameter "Category_5 = BIRDS".
+vuser_init.c(59): Notify: Saving Parameter "Category_6 = FISH".
+vuser_init.c(59): Notify: Saving Parameter "Category_7 = DOGS".
+vuser_init.c(59): Notify: Saving Parameter "Category_8 = CATS".
+vuser_init.c(59): Notify: Saving Parameter "Category_9 = REPTILES".
+vuser_init.c(59): Notify: Saving Parameter "Category_10 = BIRDS".
+vuser_init.c(59): Notify: Saving Parameter "Category_count = 10".
+vuser_init.c(59): Registered web_reg_find successful for "Text=Signon failed"  	[MsgId: MMSG-26362]
+vuser_init.c(59): Notify: Saving Parameter "SignIn_Fail = 0".
+vuser_init.c(59): web_submit_data("Account.action") was successful, 5754 body bytes, 687 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(75): Notify: Parameter Substitution: parameter "SignIn_Fail" =  "0"
+vuser_init.c(78): Notify: Transaction "JPetStore_SearchProduct_T02_Login" ended with a "Pass" status (Duration: 0.1977 Wasted Time: 0.0404).
+vuser_init.c(90): lr_think_time: 10.01 seconds (recorded think time was 10.00 seconds).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action SearhProdut.
+SearhProdut.c(7): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+SearhProdut.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+SearhProdut.c(18): Notify: Parameter Substitution: parameter "Category_count" =  "10"
+SearhProdut.c(18): Notify: Parameter Substitution: parameter "Category_2" =  "DOGS"
+SearhProdut.c(20): Notify: Saving Parameter "rCategory = DOGS".
+SearhProdut.c(22): Notify: Transaction "JPetStore_SearchProduct_T03_Selectcategory" started.
+SearhProdut.c(24): web_url("sm_category.gif") started  	[MsgId: MMSG-26355]
+SearhProdut.c(24): Notify: Parameter Substitution: parameter "rCategory" =  "DOGS"
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_1 = K9-BD-01".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_2 = K9-PO-02".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_3 = K9-DL-01".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_4 = K9-RT-01".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_5 = K9-RT-02".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_6 = K9-CW-01".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_count = 6".
+SearhProdut.c(24): web_url("sm_category.gif") was successful, 4964 body bytes, 342 header bytes  	[MsgId: MMSG-26386]
+SearhProdut.c(34): Notify: Transaction "JPetStore_SearchProduct_T03_Selectcategory" ended with a "Pass" status (Duration: 0.1866 Wasted Time: 0.0239).
+SearhProdut.c(39): lr_think_time: 14.46 seconds (recorded think time was 10.00 seconds).
+SearhProdut.c(41): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+SearhProdut.c(41): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+SearhProdut.c(51): Notify: Parameter Substitution: parameter "ProductID_count" =  "6"
+SearhProdut.c(51): Notify: Parameter Substitution: parameter "ProductID_5" =  "K9-RT-02"
+SearhProdut.c(57): Notify: Saving Parameter "rProductID = K9-RT-02".
+SearhProdut.c(59): Notify: Transaction "JPetStore_SearchProduct_T04_SelectProduct" started.
+SearhProdut.c(62): web_url("Catalog.action_2") started  	[MsgId: MMSG-26355]
+SearhProdut.c(62): Notify: Parameter Substitution: parameter "rProductID" =  "K9-RT-02"
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_1 = EST-22".
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_2 = EST-23".
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_3 = EST-24".
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_4 = EST-25".
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_count = 4".
+SearhProdut.c(62): web_url("Catalog.action_2") was successful, 5557 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+SearhProdut.c(72): Notify: Transaction "JPetStore_SearchProduct_T04_SelectProduct" ended with a "Pass" status (Duration: 0.2048 Wasted Time: 0.0109).
+SearhProdut.c(77): lr_think_time: 12.73 seconds (recorded think time was 10.00 seconds).
+SearhProdut.c(81): Notify: Parameter Substitution: parameter "ItemID_count" =  "4"
+SearhProdut.c(81): Notify: Parameter Substitution: parameter "ItemID_2" =  "EST-23"
+SearhProdut.c(83): Notify: Saving Parameter "rItemID = EST-23".
+SearhProdut.c(85): Notify: Transaction "JPetStore_SearchProduct_T05_ViewItem" started.
+SearhProdut.c(88): web_reg_find started  	[MsgId: MMSG-26355]
+SearhProdut.c(88): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+SearhProdut.c(93): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+SearhProdut.c(93): Notify: Parameter Substitution: parameter "rItemID" =  "EST-23"
+SearhProdut.c(93): Registered web_reg_find successful for "Text=Add to Cart" (count=1)  	[MsgId: MMSG-26364]
+SearhProdut.c(93): Notify: Saving Parameter "Viewcount = 1".
+SearhProdut.c(93): web_url("Catalog.action_3") was successful, 4512 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+SearhProdut.c(107): Notify: Parameter Substitution: parameter "Viewcount" =  "1"
+SearhProdut.c(109): Notify: Transaction "JPetStore_SearchProduct_T05_ViewItem" ended with a "Pass" status (Duration: 0.2355 Wasted Time: 0.0159).
+SearhProdut.c(120): lr_think_time: 14.05 seconds (recorded think time was 10.00 seconds).
+Ending action SearhProdut.
+Ending iteration 1.
+Waiting 120.0000 seconds for iteration pacing.
+Starting iteration 2.
+Notify: Next row for parameter UserID = 21 [table  = UserID].
+Notify: Getting new value for parameter 'UserID': table = 'UserID.dat' column = '0' row = '21'.
+Starting action SearhProdut.
+SearhProdut.c(7): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+SearhProdut.c(7): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+SearhProdut.c(18): Notify: Parameter Substitution: parameter "Category_count" =  "10"
+SearhProdut.c(18): Notify: Parameter Substitution: parameter "Category_1" =  "FISH"
+SearhProdut.c(20): Notify: Saving Parameter "rCategory = FISH".
+SearhProdut.c(22): Notify: Transaction "JPetStore_SearchProduct_T03_Selectcategory" started.
+SearhProdut.c(24): web_url("sm_category.gif") started  	[MsgId: MMSG-26355]
+SearhProdut.c(24): Notify: Parameter Substitution: parameter "rCategory" =  "FISH"
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_1 = FI-SW-01".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_2 = FI-SW-02".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_3 = FI-FW-01".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_4 = FI-FW-02".
+SearhProdut.c(24): Notify: Saving Parameter "ProductID_count = 4".
+SearhProdut.c(24): web_url("sm_category.gif") was successful, 4649 body bytes, 341 header bytes  	[MsgId: MMSG-26386]
+SearhProdut.c(34): Notify: Transaction "JPetStore_SearchProduct_T03_Selectcategory" ended with a "Pass" status (Duration: 0.3266 Wasted Time: 0.0282).
+SearhProdut.c(39): lr_think_time: 12.54 seconds (recorded think time was 10.00 seconds).
+SearhProdut.c(41): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+SearhProdut.c(41): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+SearhProdut.c(51): Notify: Parameter Substitution: parameter "ProductID_count" =  "4"
+SearhProdut.c(51): Notify: Parameter Substitution: parameter "ProductID_2" =  "FI-SW-02"
+SearhProdut.c(57): Notify: Saving Parameter "rProductID = FI-SW-02".
+SearhProdut.c(59): Notify: Transaction "JPetStore_SearchProduct_T04_SelectProduct" started.
+SearhProdut.c(62): web_url("Catalog.action_2") started  	[MsgId: MMSG-26355]
+SearhProdut.c(62): Notify: Parameter Substitution: parameter "rProductID" =  "FI-SW-02"
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_1 = EST-3".
+SearhProdut.c(62): Notify: Saving Parameter "ItemID_count = 1".
+SearhProdut.c(62): web_url("Catalog.action_2") was successful, 4527 body bytes, 340 header bytes  	[MsgId: MMSG-26386]
+SearhProdut.c(72): Notify: Transaction "JPetStore_SearchProduct_T04_SelectProduct" ended with a "Pass" status (Duration: 0.2012 Wasted Time: 0.0173).
+SearhProdut.c(77): lr_think_time: 11.44 seconds (recorded think time was 10.00 seconds).
+SearhProdut.c(81): Notify: Parameter Substitution: parameter "ItemID_count" =  "1"
+SearhProdut.c(81): Notify: Parameter Substitution: parameter "ItemID_1" =  "EST-3"
+SearhProdut.c(83): Notify: Saving Parameter "rItemID = EST-3".
+SearhProdut.c(85): Notify: Transaction "JPetStore_SearchProduct_T05_ViewItem" started.
+SearhProdut.c(88): web_reg_find started  	[MsgId: MMSG-26355]
+SearhProdut.c(88): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+SearhProdut.c(93): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+SearhProdut.c(93): Notify: Parameter Substitution: parameter "rItemID" =  "EST-3"
+SearhProdut.c(93): Registered web_reg_find successful for "Text=Add to Cart" (count=1)  	[MsgId: MMSG-26364]
+SearhProdut.c(93): Notify: Saving Parameter "Viewcount = 1".
+SearhProdut.c(93): web_url("Catalog.action_3") was successful, 4506 body bytes, 342 header bytes  	[MsgId: MMSG-26386]
+SearhProdut.c(107): Notify: Parameter Substitution: parameter "Viewcount" =  "1"
+SearhProdut.c(109): Notify: Transaction "JPetStore_SearchProduct_T05_ViewItem" ended with a "Pass" status (Duration: 0.2039 Wasted Time: 0.0218).
+SearhProdut.c(120): lr_think_time: 9.66 seconds (recorded think time was 10.00 seconds).
+Ending action SearhProdut.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(5): Notify: Transaction "JPetStore_SearchProduct_T06_Signout" started.
+vuser_end.c(8): web_url("Account.action_3") started  	[MsgId: MMSG-26355]
+vuser_end.c(8): Redirecting "http://localhost:8080/jpetstore/actions/Account.action?signoff=" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_end.c(8): To location "http://localhost:8080/jpetstore/actions/Catalog.action"  	[MsgId: MMSG-26693]
+vuser_end.c(8): web_url("Account.action_3") was successful, 5543 body bytes, 771 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(18): Notify: Transaction "JPetStore_SearchProduct_T06_Signout" ended with a "Pass" status (Duration: 0.2164 Wasted Time: 0.0226).
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Url: Account.action_3
+Total=1
+FileName1=t3.html
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=1778508313588
+RawStepName=Account.action_3
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1778508313444
+URL1=http://localhost:8080/jpetstore/actions/Catalog.action

@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=D:\Suganya\Scenario\JpetStore_LoadTest_50Vusers.lrs
+Completed=0

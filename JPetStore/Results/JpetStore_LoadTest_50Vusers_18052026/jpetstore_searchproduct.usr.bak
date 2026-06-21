@@ -1,0 +1,68 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=JPetStore_SearchProduct.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+SearhProdut=SearhProdut.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+custom_body_variables.txt=
+globals.h=
+[Modified Actions]
+vuser_init=1
+SearhProdut=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+SearhProdut=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+SearhProdut=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+SearhProdut=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="JPetStore_SearchProduct_T01_Launch__*delimiter*__JPetStore_SearchProduct_T02_Login__*delimiter*__JPetStore_SearchProduct_T03_Selectcategory__*delimiter*__JPetStore_SearchProduct_T04_SelectProduct__*delimiter*__JPetStore_SearchProduct_T05_ViewItem__*delimiter*__JPetStore_SearchProduct_T06_Signout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+JPetStore_SearchProduct_T01_Launch=
+JPetStore_SearchProduct_T02_Login=
+JPetStore_SearchProduct_T03_Selectcategory=
+JPetStore_SearchProduct_T04_SelectProduct=
+JPetStore_SearchProduct_T05_ViewItem=
+JPetStore_SearchProduct_T06_Signout=

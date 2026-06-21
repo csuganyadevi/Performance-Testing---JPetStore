@@ -1,0 +1,11 @@
+[t54]
+FileName1=t54.htm
+URL1=https://petstore.octoperf.com/actions/Catalog.action
+Total=1
+RequestHeaderFile=t54_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t54_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_54.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,39 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2022.0.0.0
+Path=D:\Suganya\Scenario\JpetStore_BaselineTest_10Vusers.lrs
+Subject=JpetStore_BaselineTest_10Vusers
+Result_file=D:\Suganya\Results\JpetStore_Baseline_11052026\JpetStore_Baseline_11052026.lrr
+Description=
+ResultName=JpetStore_Baseline_11052026
+Time_Zone=-19800
+Start_time=1778523098
+Daylight_Bias=0
+Stop_time=1778524170
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start all Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:15:00 (HH:MM:SS); Stop all Vusers: 2 every 00:00:05 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10_1E5;R900;SP10_2E5;
+[Scripts]
+JPetStore_Browsecategories=D:\Suganya\LR Sripts\JPetStore New Project\JPetStore_Browsecategories\JPetStore_Browsecategories.usr
+JPetStore_SearchProduct=D:\Suganya\LR Sripts\JPetStore New Project\JPetStore_SearchProduct\JPetStore_SearchProduct.usr
+JPetStore_Login=D:\Suganya\LR Sripts\JPetStore New Project\JPetStore_Login\JPetStore_Login.usr
+JPetStore_PlaceOrder=D:\Suganya\LR Sripts\JPetStore New Project\JPetStore_PlaceOrder\JPetStore_PlaceOrder.usr
+[Scripts_types]
+JPetStore_Browsecategories=Multi+QTWeb
+JPetStore_SearchProduct=Multi+QTWeb
+JPetStore_Login=Multi+QTWeb
+JPetStore_PlaceOrder=Multi+QTWeb

@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Account.action_3",
+                "infFile": "t6.inf",
+                "time": 1778508518295
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "JPetStore_SearchProduct_T06_Signout",
+                "rawStartTime": 1778508518164,
+                "rawEndTime": 1778508518295,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014167547225952149
+            }
+        ]
+    }
+]

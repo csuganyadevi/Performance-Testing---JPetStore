@@ -1,0 +1,10 @@
+[parameter:Itr_No]
+Format="%d"
+OriginalValue=""
+ParamName="Itr_No"
+Type="CurrentIteration"
+[parameter:VuserID]
+Format="%s"
+OriginalValue=""
+ParamName="VuserID"
+Type="Userid"

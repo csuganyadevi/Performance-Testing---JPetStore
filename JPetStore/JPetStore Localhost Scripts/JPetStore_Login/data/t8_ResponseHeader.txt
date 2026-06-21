@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Version: 901491242
+Content-Type: application/x-protobuffer
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to="gws"
+Report-To: {"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/none"}]}
+Accept-CH: Sec-CH-Prefers-Color-Scheme,Downlink,RTT,Sec-CH-UA-Form-Factors,Sec-CH-UA-Platform,Sec-CH-UA-Platform-Version,Sec-CH-UA-Full-Version,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-WoW64
+Permissions-Policy: unload=()
+Content-Disposition: attachment; filename="f.txt"
+Content-Encoding: gzip
+Date: Mon, 20 Apr 2026 17:46:38 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: SIDCC=AKEyXzVUg7nlrQaFC0RHw_i7M61gM7JSQ5OSfoj5UdWULnZiygdJJN7XR4BhBuHcd1LPME4GrxY; expires=Tue, 20-Apr-2027 17:46:38 GMT; path=/; domain=.google.com; priority=high,__Secure-1PSIDCC=AKEyXzVGDRsaTJDpK30uQQzD14YT7gc4k3qHCDb2of6vVCvRSK170nYSU2ufpI9ZVqo5HHYumRE; expires=Tue, 20-Apr-2027 17:46:38 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high,__Secure-3PSIDCC=AKEyXzXlVYBS8cNXa47uaJp03Ne04aD0X1vX8zGHx_YbuYdbelgVK9rMZVjdmRmaG0khkDyP5dM; expires=Tue, 20-Apr-2027 17:46:38 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Expires: Mon, 20 Apr 2026 17:46:38 GMT
+Cache-Control: private
+

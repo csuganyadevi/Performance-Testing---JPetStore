@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+X-OneAgent-JS-Injection: true
+Server-Timing: dtTrId;desc="92f168cbe32e278661e61ba09d407090", dtSInfo;desc="0"
+Server-Timing: dtRpid;desc="2001674478"
+Set-Cookie: JSESSIONID=389DBED25465C8222666994B9761D9BE; Path=/jpetstore; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-IN
+Content-Length: 5542
+Date: Mon, 11 May 2026 14:05:13 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+

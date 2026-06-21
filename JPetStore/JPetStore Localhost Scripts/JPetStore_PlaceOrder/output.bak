@@ -1,0 +1,41 @@
+Virtual User Script started at: 11-06-2026 03:45:20
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.0.0 (Mar 08 2022 19:29:30)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+vuser_init.c(4): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(6): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(14): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(21): Notify: Transaction "JPetStore_PlaceOrder_T01_Launch" started.
+vuser_init.c(23): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Notify: Saving Parameter "SessionID = 35E567A00F4F3D32DF6311F0CBFE30FB".
+vuser_init.c(23): web_url("Catalog.action") was successful, 6192 body bytes, 558 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(33): Notify: Transaction "JPetStore_PlaceOrder_T01_Launch" ended with a "Pass" status (Duration: 2.0015 Wasted Time: 0.3281).
+vuser_init.c(39): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(39): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(48): Notify: Transaction "JPetStore_PlaceOrder_T02_Login" started.
+vuser_init.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(59): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+vuser_init.c(59): Notify: Parameter Substitution: parameter "SessionID" =  "35E567A00F4F3D32DF6311F0CBFE30FB"
+vuser_init.c(59): Notify: Parameter Substitution: parameter "UserID" =  "UserID20260514012103151"
+vuser_init.c(59): Notify: Parameter Substitution: parameter "UserID" =  "UserID20260514012103151"
+vuser_init.c(59): Notify: Saving Parameter "Category_1 = FISH".
+vuser_init.c(59): Notify: Saving Parameter "Category_2 = DOGS".
+vuser_init.c(59): Notify: Saving Parameter "Category_3 = REPTILES".
+vuser_init.c(59): Notify: Saving Parameter "Category_4 = CATS".
+vuser_init.c(59): Notify: Saving Parameter "Category_5 = BIRDS".
+vuser_init.c(59): Notify: Saving Parameter "Category_count = 5".
+vuser_init.c(59): Registered web_reg_find successful for "Text=Signon failed" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(59): Notify: Saving Parameter "SignIn_Fail = 1".
+vuser_init.c(59): web_submit_data("Account.action") was successful, 4719 body bytes, 342 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(75): Notify: Parameter Substitution: parameter "SignIn_Fail" =  "1"
+vuser_init.c(84): Notify: Transaction "JPetStore_PlaceOrder_T02_Login" ended with a "Fail" status (Duration: 0.6533 Wasted Time: 0.0268).
+vuser_init.c(84): Notify: Transaction "JPetStore_PlaceOrder_T02_Login" has 0 error message(s).
+vuser_init.c(85): Notify: Parameter Substitution: parameter "VuserID" =  "1"
+vuser_init.c(85): Notify: Parameter Substitution: parameter "Itr_No" =  "1"
+vuser_init.c(85): The JPetStore Signon failed for : VuserID_1 , Itr_No_1
+Abort was called from an action.

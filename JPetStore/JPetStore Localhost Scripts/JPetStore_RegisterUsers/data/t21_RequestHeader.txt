@@ -1,0 +1,14 @@
+POST https://clientservices.googleapis.com/uma/v2 HTTP/1.1
+X-Chrome-UMA-Log-SHA1: 3F0999A116A5C2FEC6AC3160CDC15FD5B3DF04CF
+X-Chrome-UMA-Log-HMAC-SHA256: AbTyrxxQXChI5WI+YSlkbfgdItHYMpB+CxiH6MUyb60=
+X-Chrome-UMA-ReportingInfo: CAEQyAEYACAB
+content-encoding: gzip
+Content-Type: application/vnd.chrome.uma
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Host: clientservices.googleapis.com
+Content-Length: 15458
+

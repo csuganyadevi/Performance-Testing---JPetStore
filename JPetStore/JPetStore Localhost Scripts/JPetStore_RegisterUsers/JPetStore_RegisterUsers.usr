@@ -1,0 +1,66 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=JPetStore_RegisterUsers.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+User_Registration=User_Registration.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+custom_body_variables.txt=
+globals.h=
+[Modified Actions]
+vuser_init=0
+User_Registration=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+User_Registration=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+User_Registration=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+User_Registration=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="JPetStore_UserRegistration_T01_Launch__*delimiter*__JPetStore_UserRegistration_T02_SignIn__*delimiter*__JPetStore_UserRegistration_T03_RegisterNow__*delimiter*__JPetStore_UserRegistration_T04_SaveAccount"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+JPetStore_UserRegistration_T01_Launch=
+JPetStore_UserRegistration_T02_SignIn=
+JPetStore_UserRegistration_T03_RegisterNow=
+JPetStore_UserRegistration_T04_SaveAccount=

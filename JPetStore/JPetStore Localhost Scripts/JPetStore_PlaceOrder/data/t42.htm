@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"
+	media="screen" />
+
+<meta name="generator"
+	content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
+<title>JPetStore Demo</title>
+<meta content="text/html; charset=windows-1252"
+	http-equiv="Content-Type" />
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="Pragma" content="no-cache" />
+</head>
+
+<body>
+
+<div id="Header">
+
+<div id="Logo">
+<div id="LogoContent">
+&nbsp;
+<a href="/actions/Catalog.action"><img src="../images/logo-topbar.svg" /></a></div>
+</div>
+
+<div id="Menu">
+<div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="img_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif" />  
+	
+ 
+	
+		<a href="/actions/Account.action?signoff=">Sign Out</a>
+		<img align="middle" src="../images/separator.gif" />
+		<a href="/actions/Account.action?editAccountForm=">My Account</a>
+	
+ <img align="middle" src="../images/separator.gif" /> <a
+	href="../help.html">?</a></div>
+</div>
+
+<div id="Search">
+<div id="SearchContent"><form method="post" action="/actions/Catalog.action">
+	<input size="14" name="keyword" type="text" />
+	<input name="searchProducts" type="submit" value="Search" />
+<div style="display: none;"><input type="hidden" name="_sourcePage" value="THLcAyti9slcRxtrZZ1ibDc3CGvXxUNR_5fi8aPclLIz4c1_6FpxmbdhC5_MKPyM7MEAkrCLpg31WWgOsOAxubQM8zb-8f-ls6LNNIHpCKo=" /><input type="hidden" name="__fp" value="NGSECb289Djs0s-z7HAeheMB_3bymC2PH2RdNV08x3Cgx_7YGuvnosaN_BZM94vm" /></div></form></div>
+</div>
+
+<div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></a></div>
+
+</div>
+
+<div id="Content">
+
+
+<div id="Catalog"><form method="post" action="/actions/Order.action">
+
+	<table>
+		<tr>
+			<th colspan=2>Payment Details</th>
+		</tr>
+		<tr>
+			<td>Card Type:</td>
+			<td><select name="order.cardType">
+				<option value="Visa" selected="selected">Visa</option><option value="MasterCard">MasterCard</option><option value="American Express">American Express</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Card Number:</td>
+			<td><input name="order.creditCard" type="text" value="999 9999 9999 9999" /> * Use a fake
+			number!</td>
+		</tr>
+		<tr>
+			<td>Expiry Date (MM/YYYY):</td>
+			<td><input name="order.expiryDate" type="text" value="12/03" /></td>
+		</tr>
+		<tr>
+			<th colspan=2>Billing Address</th>
+		</tr>
+
+		<tr>
+			<td>First name:</td>
+			<td><input name="order.billToFirstName" type="text" value="ABC" /></td>
+		</tr>
+		<tr>
+			<td>Last name:</td>
+			<td><input name="order.billToLastName" type="text" value="XYX" /></td>
+		</tr>
+		<tr>
+			<td>Address 1:</td>
+			<td><input size="40" name="order.billAddress1" type="text" value="901 San Antonio Road" /></td>
+		</tr>
+		<tr>
+			<td>Address 2:</td>
+			<td><input size="40" name="order.billAddress2" type="text" value="MS UCUP02-206" /></td>
+		</tr>
+		<tr>
+			<td>City:</td>
+			<td><input name="order.billCity" type="text" value="Palo Alto" /></td>
+		</tr>
+		<tr>
+			<td>State:</td>
+			<td><input size="4" name="order.billState" type="text" value="CA" /></td>
+		</tr>
+		<tr>
+			<td>Zip:</td>
+			<td><input size="10" name="order.billZip" type="text" value="94303" /></td>
+		</tr>
+		<tr>
+			<td>Country:</td>
+			<td><input size="15" name="order.billCountry" type="text" value="USA" /></td>
+		</tr>
+
+		<tr>
+			<td colspan=2><input name="shippingAddressRequired" type="checkbox" value="true" />
+			Ship to different address...</td>
+		</tr>
+
+	</table>
+
+	<input name="newOrder" type="submit" value="Continue" />
+
+<div style="display: none;"><input type="hidden" name="_sourcePage" value="_bJB4vQQ4AFLYyw_QrXWHKEiB9sphtsKziKT797fNEIwL-NN_fLrpFqzMtRtHTdvqjpXNXW-pCd9Ih14wUcLPzyoXV67ldoCMYig-Q6Jtko=" /><input type="hidden" name="__fp" value="ezHEPP9qGi_KLBgx59bisI6n0K_s89t6aphicZRmN4WhBHFVcg1nSUq89mRGbj4gTAZm495IjveJPyIn_Pr2kQ9XDRBMyj8mFXitAwpcgft7ZCsCHPlu-g==" /></div></form></div>
+
+
+</div>
+
+<div id="CTA">
+Elevate you load-testing with <a href="https://octoperf.com">OctoPerf</a>!
+</div>
+
+<div id="Footer">
+
+<div id="PoweredBy">
+&nbsp;&nbsp;Hosted by <a href="https://octoperf.com" target="_blank">https://octoperf.com</a>&nbsp;|&nbsp;Powered by <a href="https://mybatis.org/" target="_blank">www.mybatis.org</a>
+</div>
+
+<div id="Banner">
+	
+		
+          <image src="../images/banner_dogs.gif">
+        
+	
+</div>
+
+</div>
+
+</body>
+</html>
+

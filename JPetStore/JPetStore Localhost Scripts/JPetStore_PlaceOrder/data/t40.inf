@@ -1,0 +1,10 @@
+[t40]
+FileName1=t39.htm
+URL1=https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-2
+Total=1
+SnapshotXmlFile=snapshot_40.xml
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t40_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22.html
+URL1=https://google-ohttp-relay-safebrowsing.fastly-edge.com/
+Total=1
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=t22_RequestBody.txt
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=message/ohttp-res
+SnapshotXmlFile=snapshot_22.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

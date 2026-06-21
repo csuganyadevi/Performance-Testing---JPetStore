@@ -1,0 +1,10 @@
+[t62]
+FileName1=t61_RotateBoundGaps.htm
+URL1=https://accounts.google.com/RotateBoundGaps
+Total=1
+SnapshotXmlFile=snapshot_62.xml
+RequestHeaderFile=t62_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t62_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

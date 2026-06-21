@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t1.inf",
+                "time": 1781130582590
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t2.inf",
+                "time": 1781130582722
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "JPetStore_PlaceOrder_T01_Launch",
+                "rawStartTime": 1781130581910,
+                "rawEndTime": 1781130582590,
+                "thinkTime": 0.0,
+                "wastedTime": 0.18332886695861817
+            },
+            {
+                "transactionName": "JPetStore_PlaceOrder_T02_Login",
+                "rawStartTime": 1781130582594,
+                "rawEndTime": 1781130582722,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020341873168945314
+            }
+        ]
+    }
+]
